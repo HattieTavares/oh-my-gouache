@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Oh My Gouache</title>
 </head>
 <body>
-    
+    <section class="half colorSwatch">
+        <h1>Oh. My. Gouache!</h1>
+        <span id="colorName"></span>
+    </section>
+    <section class="half details">
+        <header>
+            <h2>Choose a gouache brand and then a color:</h2>
+            <section class="dropdowns">
+                <form action="#">
+                    <label for="brand">Brands</label>
+                    <select name="brands" id="brand">
+                        <option value="choice">Choose a brand:</option>
+                        <option value="holbein">Holbein</option>
+                        <option value="mGraham">M. Graham</option>
+                        <option value="maimeri">Maimeri</option>
+                        <option value="royalTalens">Royal Talens</option>
+                        <option value="horadam">Schmincke Horadam</option>
+                        <option value="designers">Schmincke Designers</option>
+                        <option value="winsorNewton">Winsor & Newton</option>
+                    </select>
+                    <input type="submit" value="Submit" style="float: right;"/>
+                </form>
+                <form action="#">
+                    <label for="color">Colors</label>
+                    <select name="colors" id="color">
+                        <option value="choice">Choose a color:</option>
+                    </select>
+                    <input type="submit" value="Submit" style="float: right;"/>
+                </form>
+            </section>
+        </header>
+        <section class="stats">
+            <h2>Color Stats:</h2>
+            <span>Item Number: </span><p id="itemNum"></p>
+            <span>Lightfastness Rating: </span><p id="lightfast"></p>
+            <span>Pigments: </span><p id="pigments"></p>
+            <span>Opacity: </span><p id="opacity"></p>
+        </section>
+        <footer>
+            <span>Copyright 2022 Hattie Tavares</span>
+        </footer>
+    </section>
     <script src="#"></script>
 </body>
 </html>

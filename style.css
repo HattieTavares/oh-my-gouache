@@ -76,6 +76,13 @@ select {
     border: 10px solid white;
   }
 
+  #swatch {
+    align-self: center;
+    aspect-ratio: 1/1;
+    width: 50%;
+    border: 1px solid black;
+  }
+
   h1 {
     font-size: 4rem;
   }

@@ -3436,3 +3436,12 @@ app.get("/api/:name", (req, res)=> {
 app.listen(process.env.PORT || PORT, ()=> {
     console.log(`The server is running on port ${PORT}.`)
 })
+
+//to add to heroku
+//in terminal:
+//type: heroku login and then log in
+//type: heroku create name-of-your-api
+//type: echo "web: node server.js" > Procfile (this is so it knows what file to use)
+//type git add .
+//git commit -m "added procfile for heroku etc"
+//git push heroku main

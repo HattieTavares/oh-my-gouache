@@ -42,9 +42,9 @@ fetch(url)
             let pickedColor = colorArray.find(item =>item.name === event.target.value)
             document.getElementById("colorName").innerText = pickedColor.name
             document.getElementById("swatch").style.backgroundColor = pickedColor.hex
-            document.getElementById("itemNum").innerText += pickedColor.number
-            document.getElementById("lightfast").innerText += pickedColor.rating
-            document.getElementById("pigments").innerText += pickedColor.pigments
-            document.getElementById("opacity").innerText += pickedColor.opacity
+            document.getElementById("itemNum").innerText = pickedColor.number
+            document.getElementById("lightfast").innerText = pickedColor.rating
+            document.getElementById("pigments").innerText = pickedColor.pigments
+            document.getElementById("opacity").innerText = pickedColor.opacity
         })
     })

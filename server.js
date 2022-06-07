@@ -3424,12 +3424,8 @@ app.get("/", (req, res)=> {
     res.sendFile(__dirname + "/index.html")
 })
 
-app.get("/api/:name", (req, res)=> {
-    const gouacheBrand = req.params.name
-    const colorNames = brands[gouacheBrand].map(item => item.name).sort()
-    console.log(brands[gouacheBrand][0].name)
-    console.log(colorNames)
-    res.json(brands[gouacheBrand])
+app.get("/api", (req, res)=> {
+    res.json(brands)
 })
 
 //need to tell the server to listen and can assign the port to a variable if you want

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <title>Oh My Gouache</title>
 </head>
 <body>
@@ -22,24 +22,15 @@
             <section class="dropdowns">
                 <form action="#">
                     <label for="brand">Brands</label>
-                    <select name="brands" id="brand">
-                        <option value="choice">Choose a brand:</option>
-                        <option value="holbein">Holbein</option>
-                        <option value="mGraham">M. Graham</option>
-                        <option value="maimeri">Maimeri</option>
-                        <option value="royalTalens">Royal Talens</option>
-                        <option value="horadam">Schmincke Horadam</option>
-                        <option value="designers">Schmincke Designers</option>
-                        <option value="winsorNewton">Winsor & Newton</option>
+                    <select class="brands">
+                        <option value="starter" selected>Choose a brand:</option>
                     </select>
-                    <input type="submit" value="Submit" style="float: right;"/>
                 </form>
                 <form action="#">
                     <label for="color">Colors</label>
-                    <select name="colors" id="color">
-                        <option value="choice">Choose a color:</option>
+                    <select class="colors">
+                        <option value="starter" selected>Choose a color:</option>
                     </select>
-                    <input type="submit" value="Submit" style="float: right;"/>
                 </form>
             </section>
         </header>
@@ -54,6 +45,6 @@
             <span>Copyright 2022 Hattie Tavares</span>
         </footer>
     </section>
-    <script src="main.js"></script>
+    <script src="public/js/main.js"></script>
 </body>
 </html>

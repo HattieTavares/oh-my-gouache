@@ -22,6 +22,11 @@ fetch(url)
         let colorArray
         
         selectBrands.addEventListener('change', event => {
+            document.getElementById("color").selectedIndex = 0
+            let clear = document.getElementById("color");
+            while (clear.length > 1) {
+            clear.remove(clear.length-1);
+            }
             let colors = data[event.target.value]
             colorArray = colors.sort((a,z) => {
                 if(a.name < z.name){

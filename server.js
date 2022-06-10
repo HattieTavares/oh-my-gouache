@@ -32,6 +32,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#84c2e9",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "G574",
@@ -41,6 +42,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#567084",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "G555",
@@ -50,6 +52,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#5a8a74",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "G580",
@@ -86,6 +89,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#f7acbd",
             "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "G646",
@@ -239,6 +243,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#48a2a2",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "G569",
@@ -365,6 +370,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#f9cc82",
             "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "G531",
@@ -374,6 +380,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#f1b04a",
             "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "G607",
@@ -419,6 +426,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#a78dbc",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "G582",
@@ -455,6 +463,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#eed44b",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "G529",
@@ -464,6 +473,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#f3d161",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "G572",
@@ -590,6 +600,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#d2a3c5",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "G658",
@@ -734,6 +745,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#6a71b1",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "G550",
@@ -752,6 +764,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#0073b3",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "G554",
@@ -761,6 +774,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#62bea9",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "G565",
@@ -789,14 +803,6 @@ const brands = {
             "hex" : "#69287a",
             "family" : "Violet",
         },
-        // "color" : {
-        //     "number" : "G549",
-        //     "name" : "Viridian",
-        //     "rating" : "***",
-        //     "pigments" : "PG18",
-        //     "opacity": "Not Listed",
-        //     "hex" : "#CEC8CA"
-        // },
         {
             "number" : "G527",
             "name" : "Yellow Ochre",
@@ -824,7 +830,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PW5",
             "opacity": "Not Listed",
-            "hex" : "#EBEAEF"
+            "hex" : "#EBEAEF",
+            "family" : "White",
         },
         {
             "number" : "106",
@@ -832,7 +839,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PW5",
             "opacity": "Not Listed",
-            "hex" : "#EBEAEF"
+            "hex" : "#EBEAEF",
+            "family" : "White",
         },
         {
             "number" : "255",
@@ -842,6 +850,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#FFE5AC",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "205",
@@ -903,7 +912,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PY42, PO43",
             "opacity": "Not Listed",
-            "hex" : "#FEBD9F"
+            "hex" : "#FEBD9F",
+            "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "311",
@@ -1003,6 +1014,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#CE87E3",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "536",
@@ -1102,6 +1114,7 @@ const brands = {
             "opacity": "Not Listed",
             "hex" : "#0490D4",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "243",
@@ -1199,7 +1212,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PY42",
             "opacity": "Not Listed",
-            "hex" : "#F7A434"
+            "hex" : "#F7A434",
+            "family" : "Brown",
         },
         {
             "number" : "408",
@@ -1243,7 +1257,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PR101",
             "opacity": "Not Listed",
-            "hex" : "#C5424C"
+            "hex" : "#C5424C",
+            "family" : "Brown",
         },
         {
             "number" : "427",
@@ -1659,7 +1674,8 @@ const brands = {
             "rating" : "LF I",
             "pigments" : "PW4",
             "opacity" : "Semi-Opaque",
-            "hex" : "#fefefc"
+            "hex" : "#fefefc",
+            "family" : "White",
         },
         {
             "number" : "180",
@@ -1667,7 +1683,8 @@ const brands = {
             "rating" : "LF I",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#fefdf9"
+            "hex" : "#fefdf9",
+            "family" : "White",
         },
     ],
 
@@ -1678,7 +1695,8 @@ const brands = {
             "rating" : "*****",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "103",
@@ -1686,7 +1704,8 @@ const brands = {
             "rating" : "*****",
             "pigments" : "PW4",
             "opacity" : "Semi-Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "220",
@@ -1856,7 +1875,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PR122",
             "opacity" : "Semi-Opaque",
-            "hex" : "#9f1c50"
+            "hex" : "#9f1c50",
+            "family" : "Red",
         },
         {
             "number" : "360",
@@ -2018,6 +2038,7 @@ const brands = {
             "pigments" : "PG36, PO62",
             "opacity" : "Opaque",
             "hex" : "#466227",
+            "family" : "Green",
             
         },
         {
@@ -2089,7 +2110,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PO62, PR255, PB60",
             "opacity" : "Opaque",
-            "hex" : "#1c2e3c"
+            "hex" : "#1c2e3c",
+            "family" : "Grey",
         },
         {
             "number" : "787",
@@ -2109,7 +2131,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PW4, PW7",
             "opacity" : "Semi-Opaque",
-            "hex" : "ffffff"
+            "hex" : "ffffff",
+            "family" : "White",
         },
         {
             "number" : "199",
@@ -2117,7 +2140,8 @@ const brands = {
             "rating" : "*****",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "ffffff"
+            "hex" : "ffffff",
+            "family" : "White",
         },
         {
             "number" : "201",
@@ -2127,6 +2151,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#feec9a",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "202",
@@ -2197,7 +2222,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW5, PO36, PR242",
             "opacity" : "Opaque",
-            "hex" : "#f79f91"
+            "hex" : "#f79f91",
+            "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "312",
@@ -2243,6 +2270,7 @@ const brands = {
             "opacity" : "Semi-Opaque",
             "hex" : "#bd1644",
             "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "318",
@@ -2288,6 +2316,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#007ac3",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "441",
@@ -2324,6 +2353,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#0089cf",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "446",
@@ -2333,6 +2363,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#008fd5",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "447",
@@ -2342,6 +2373,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#0091c6",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "449",
@@ -2351,6 +2383,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#0089bf",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "450",
@@ -2360,6 +2393,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#25c3e8",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "551",
@@ -2369,6 +2403,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#00b3b8",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "554",
@@ -2378,6 +2413,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#00ae89",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "557",
@@ -2387,6 +2423,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#00ac58",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "558",
@@ -2405,6 +2442,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#2bb55f",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "561",
@@ -2448,7 +2486,8 @@ const brands = {
             "rating" : "*****",
             "pigments" : "PY42",
             "opacity" : "Opaque",
-            "hex" : "#e39944"
+            "hex" : "#e39944",
+            "family" : "Yellow",
         },
         {
             "number" : "672",
@@ -2483,7 +2522,8 @@ const brands = {
             "rating" : "*****",
             "pigments" : "PG17, PY42, PBk11",
             "opacity" : "Opaque",
-            "hex" : "#917341"
+            "hex" : "#917341",
+            "family" : "Brown",
         },
         {
             "number" : "676",
@@ -2548,7 +2588,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PB29, PW6",
             "opacity" : "Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "020",
@@ -2556,7 +2597,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW4",
             "opacity" : "Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "050",
@@ -2564,7 +2606,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PO62",
             "opacity" : "Opaque",
-            "hex" : "#fd6d01"
+            "hex" : "#fd6d01",
+            "family" : "Orange",
         },
         {
             "number" : "052",
@@ -2572,7 +2615,8 @@ const brands = {
             "rating" : "**",
             "pigments" : "PR112, PY83",
             "opacity" : "Opaque",
-            "hex" : "#f51c08"
+            "hex" : "#f51c08",
+            "family" : "Orange",
         },
         {
             "number" : "086",
@@ -2600,6 +2644,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#fcde6a",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "106",
@@ -2609,6 +2654,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#febe8a",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "116",
@@ -2643,7 +2689,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PR101, PBk11, PY42",
             "opacity" : "Opaque",
-            "hex" : "#d97903"
+            "hex" : "#d97903",
+            "family" : "Brown",
         },
         {
             "number" : "137",
@@ -2669,7 +2716,8 @@ const brands = {
             "rating" : "**",
             "pigments" : "PY83, PY42",
             "opacity" : "Opaque",
-            "hex" : "#ee9401"
+            "hex" : "#ee9401",
+            "family" : "Brown",
         },
         {
             "number" : "165",
@@ -2931,6 +2979,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#795c94",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "445",
@@ -3253,15 +3302,17 @@ const brands = {
         {
             "number" : "257",
             "name" : "Pale Rose Blush",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PO72, PR9, PW6, PY42",
             "opacity" : "Opaque",
-            "hex" : "#f0c0a6"
+            "hex" : "#f0c0a6",
+            "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "466",
             "name" : "Permanent Alizarin Crimson",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR176",
             "opacity" : "Semi-Opaque",
             "hex" : "#bc1b32",
@@ -3279,7 +3330,7 @@ const brands = {
         {
             "number" : "524",
             "name" : "Primary Red",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR170",
             "opacity" : "Semi-Opaque",
             "hex" : "#ba0025",
@@ -3288,10 +3339,11 @@ const brands = {
         {
             "number" : "530",
             "name" : "Opera Pink",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#fe2d97"
+            "hex" : "#fe2d97",
+            "family" : "Red",
         },
         {
             "number" : "550",
@@ -3305,7 +3357,7 @@ const brands = {
         {
             "number" : "28",
             "name" : "Bengal Rose",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR169",
             "opacity" : "Semi-Opaque",
             "hex" : "#c00552",
@@ -3314,15 +3366,16 @@ const brands = {
         {
             "number" : "448",
             "name" : "Opera Rose",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#fc34b2"
+            "hex" : "#fc34b2",
+            "family" : "Red",
         },
         {
             "number" : "593",
             "name" : "Rose Tyrien",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR173",
             "opacity" : "Semi-Opaque",
             "hex" : "#e70075",
@@ -3331,7 +3384,7 @@ const brands = {
         {
             "number" : "380",
             "name" : "Magenta",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR173, PV2",
             "opacity" : "Semi-Transparent",
             "hex" : "#8e0237",
@@ -3340,7 +3393,7 @@ const brands = {
         {
             "number" : "530",
             "name" : "Brilliant Red/Violet",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PV1",
             "opacity" : "Semi-Opaque",
             "hex" : "#b30483",
@@ -3349,7 +3402,7 @@ const brands = {
         {
             "number" : "52",
             "name" : "Brilliant Violet",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PB29, PV1",
             "opacity" : "Semi-Opaque",
             "hex" : "#8c177e",
@@ -3462,6 +3515,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#005fbb",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "137",
@@ -3489,6 +3543,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#016aa4",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "667",
@@ -3516,6 +3571,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#015989",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "692",
@@ -3556,7 +3612,7 @@ const brands = {
         {
             "number" : "484",
             "name" : "Permanent Green Middle",
-            "rating" : "*II",
+            "rating" : "II",
             "pigments" : "PG7, PY3, PY74",
             "opacity" : "Opaque",
             "hex" : "#026536",
@@ -3566,10 +3622,11 @@ const brands = {
             "number" : "46",
             "name" : "Brilliant Green",
             "rating" : "I",
-            "pigments" : "PG7, pW6, PY3",
+            "pigments" : "PG7, PW6, PY3",
             "opacity" : "Opaque",
             "hex" : "#019d5d",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "483",
@@ -3601,7 +3658,7 @@ const brands = {
         {
             "number" : "369",
             "name" : "Linden Green",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PG17, PY3, PY74",
             "opacity" : "Semi-Opaque",
             "hex" : "#f2e01e",
@@ -3615,6 +3672,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#fed48c",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "425",
@@ -3640,7 +3698,8 @@ const brands = {
             "rating" : "II",
             "pigments" : "PR101, PY42, PY65",
             "opacity" : "Opaque",
-            "hex" : "#b86b29"
+            "hex" : "#b86b29",
+            "family" : "Brown",
         },
         {
             "number" : "285",
@@ -3663,10 +3722,11 @@ const brands = {
         {
             "number" : "507",
             "name" : "Perylene Maroon",
-            "rating" : "",
-            "pigments" : "None Listed",
+            "rating" : "None Listed",
+            "pigments" : "PR179",
             "opacity" : "Opaque",
-            "hex" : "#66131a"
+            "hex" : "#66131a",
+            "family" : "Red",
         },
         {
             "number" : "678",
@@ -3674,7 +3734,8 @@ const brands = {
             "rating" : "II",
             "pigments" : "PR101, PY74, PR9",
             "opacity" : "Opaque",
-            "hex" : "#bf4629"
+            "hex" : "#bf4629",
+            "family" : "Brown",
         },
         {
             "number" : "564",
@@ -3682,7 +3743,8 @@ const brands = {
             "rating" : "I",
             "pigments" : "PR101, PV19",
             "opacity" : "Opaque",
-            "hex" : "#792b27"
+            "hex" : "#792b27",
+            "family" : "Red",
         },
         {
             "number" : "470",
@@ -3798,7 +3860,8 @@ const brands = {
             "rating" : "I",
             "pigments" : "PW5",
             "opacity" : "Opaque",
-            "hex" : "#f1e8e3"
+            "hex" : "#f1e8e3",
+            "family" : "White",
         },
         {
             "number" : "512",
@@ -3806,7 +3869,8 @@ const brands = {
             "rating" : "I",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#f2eeed"
+            "hex" : "#f2eeed",
+            "family" : "White",
         },
     ],
 
@@ -3817,7 +3881,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "A002 (previously A163)",
@@ -3825,7 +3890,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#efe9e7"
+            "hex" : "#efe9e7",
+            "family" : "White",
         },
         {
             "number" : "A100 (previously A131)",
@@ -3835,6 +3901,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#efd8b9",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "A101 (previously A186)",
@@ -3844,6 +3911,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#fde274",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "A600 (previously A127)",
@@ -3886,7 +3954,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PR21, PO13",
             "opacity" : "Opaque",
-            "hex" : "##f79b5e"
+            "hex" : "##f79b5e",
+            "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "A107 (previously A195)",
@@ -3914,6 +3984,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#ad8b55",
             "family" : "Brown",
+            "addedWhite" : true,
         },
         {
             "number" : "A406 (previously A143)",
@@ -3921,7 +3992,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PBK11, PBR6",
             "opacity" : "Opaque",
-            "hex" : "#b19e91"
+            "hex" : "#b19e91",
+            "family" : "Brown",
+            "addedWhite" : true,
         },
         {
             "number" : "A301 (previously A130)",
@@ -3931,6 +4004,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#a4846b",
             "family" : "Brown",
+            "addedWhite" : true,
         },
         {
             "number" : "A302 (previously A129)",
@@ -3940,6 +4014,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#a9826f",
             "family" : "Brown",
+            "addedWhite" : true,
         },
         {
             "number" : "A305 (previously A108)",
@@ -3992,7 +4067,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6, PR21, PBK11",
             "opacity" : "Opaque",
-            "hex" : "#eab7aa"
+            "hex" : "#eab7aa",
+            "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "A402 (previously A125)",
@@ -4000,7 +4077,9 @@ const brands = {
             "rating" : "**",
             "pigments" : "PW6, PR21",
             "opacity" : "Opaque",
-            "hex" : "#ef92b2"
+            "hex" : "#ef92b2",
+            "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "A202 (previously A105)",
@@ -4019,6 +4098,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#532525",
             "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "A401 (previously A133)",
@@ -4026,7 +4106,9 @@ const brands = {
             "rating" : "**",
             "pigments" : "PW6, PO13, PR21",
             "opacity" : "Opaque",
-            "hex" : "#ee9386"
+            "hex" : "#ee9386",
+            "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "A403 (previously A165)",
@@ -4034,7 +4116,8 @@ const brands = {
             "rating" : "**",
             "pigments" : "C.I.45410",
             "opacity" : "Transparent",
-            "hex" : "#ff4d96"
+            "hex" : "#ff4d96",
+            "family" : "Red",
         },
         {
             "number" : "A201 (previously A106)",
@@ -4053,6 +4136,7 @@ const brands = {
             "opacity" : "Semi-Opaque",
             "hex" : "#9c2c5c",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "A405 (previously A144)",
@@ -4062,6 +4146,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#90525d",
             "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "A407 (previously A137)",
@@ -4071,6 +4156,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#825478",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "A408 (previously A134)",
@@ -4080,6 +4166,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#5e2d64",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "A409 (previously A185)",
@@ -4089,6 +4176,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#3b215a",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "A501 (previously A154)",
@@ -4098,6 +4186,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#7b9fd6",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "A503 (previously A123)",
@@ -4107,6 +4196,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#0975a6",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "A506 (previously A116)",
@@ -4134,6 +4224,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#a9b6d9",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "A504 (previously A138)",
@@ -4143,6 +4234,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#254c76",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "A502 (previously A139)",
@@ -4152,6 +4244,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#497379",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "A605 (previously A136)",
@@ -4166,7 +4259,7 @@ const brands = {
             "number" : "A601 (previously A109)",
             "name" : "Pale Green",
             "rating" : "***",
-            "pigments" : "PWPG7, PY36",
+            "pigments" : "PG7, PY3",
             "opacity" : "Semi-Opaque",
             "hex" : "#00b029",
             "family" : "Green",
@@ -4206,6 +4299,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#9fad6d",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "A604 (previously A142)",
@@ -4215,6 +4309,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#5f6922",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "A003 (previously A132)",
@@ -4348,108 +4443,115 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "White",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PW6",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#ffffff"
         },
         {
             "number" : "None Listed",
             "name" : "Baby Yellow",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PW6, PY43, PY37",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#fff3b5",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Orange",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PW6, PO73, PY1",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#f5833c",
             "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Rosy",
-            "rating" : "?",
-            "pigments" : "PW6PY6, PO73",
-            "opacity" : "?",
+            "rating" : "None Listed",
+            "pigments" : "PY6, PO73",
+            "opacity" : "None Listed",
             "hex" : "#f07a70",
             "family" : "Red",
         },
         {
             "number" : "None Listed",
             "name" : "Red",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PO16, PR48:3",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#e5502d",
             "family" : "Red",
         },
         {
             "number" : "None Listed",
             "name" : "Brown",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PY43, PR101",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#66553f"
         },
         {
             "number" : "None Listed",
             "name" : "Chocolate",
-            "rating" : "",
+            "rating" : "None Listed",
             "pigments" : "PR101, PBk6",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#413d3a",
             "family" : "Brown",
         },
         {
             "number" : "None Listed",
             "name" : "Lambs Ear",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "pw6, PG17, PY1",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#9bc190",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Green",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PW6, PG17, PG36",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#516b4a",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Blue",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PW6, PB15, PG7",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#7a97a9",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Nighty",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PW6, PB27, PB29",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#44628c",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "None Listed",
             "name" : "Lilac",
-            "rating" : "?",
+            "rating" : "None Listed",
             "pigments" : "PW6, PV23, PB15",
-            "opacity" : "?",
+            "opacity" : "None Listed",
             "hex" : "#938ac3",
             "family" : "Violet",
+            "addedWhite" : true,
         },
     ],
 
@@ -4460,7 +4562,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#ffffff"
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "005",
@@ -4468,7 +4571,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#8a9698"
+            "hex" : "#8a9698",
+            "family" : "Grey",
         },
         {
             "number" : "009",
@@ -4476,7 +4580,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#393b3c"
+            "hex" : "#393b3c",
+            "family" : "Black",
         },
         {
             "number" : "010",
@@ -4484,7 +4589,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#ffe001"
+            "hex" : "#ffe001",
+            "family" : "Yellow",
         },
         {
             "number" : "030",
@@ -4492,7 +4598,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#f17028"
+            "hex" : "#f17028",
+            "family" : "Orange",
         },
         {
             "number" : "035",
@@ -4500,7 +4607,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#d79241"
+            "hex" : "#d79241",
+            "family" : "Yellow",
         },
         {
             "number" : "059",
@@ -4508,7 +4616,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#ae5f42"
+            "hex" : "#ae5f42",
+            "family" : "Brown",
         },
         {
             "number" : "060",
@@ -4534,7 +4643,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#d42365"
+            "hex" : "#d42365",
+            "family" : "Violet",
         },
         {
             "number" : "120",
@@ -4542,7 +4652,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#3d2a64"
+            "hex" : "#3d2a64",
+            "family" : "Violet",
         },
         {
             "number" : "140",
@@ -4550,7 +4661,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#46399a"
+            "hex" : "#46399a",
+            "family" : "Blue",
         },
         {
             "number" : "170",
@@ -4558,7 +4670,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#0770b3"
+            "hex" : "#0770b3",
+            "family" : "Blue",
         },
         {
             "number" : "180",
@@ -4566,7 +4679,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#01686b"
+            "hex" : "#01686b",
+            "family" : "Green",
         },
         {
             "number" : "210",
@@ -4574,7 +4688,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#0b946e"
+            "hex" : "#0b946e",
+            "family" : "Green",
         },
         {
             "number" : "230",
@@ -4582,7 +4697,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#5fbd5d"
+            "hex" : "#5fbd5d",
+            "family" : "Green",
         },
         {
             "number" : "240",
@@ -4590,7 +4706,8 @@ const brands = {
             "rating" : "None Listed",
             "pigments" : "None Listed",
             "opacity" : "Semi-Opaque",
-            "hex" : "#fff03f"
+            "hex" : "#fff03f",
+            "family" : "Yellow",
         },
     ],
 
@@ -4630,6 +4747,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#d33e25",
             "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "010",
@@ -4637,7 +4755,9 @@ const brands = {
             "rating" : "**",
             "pigments" : "PR254, PW6",
             "opacity" : "Opaque",
-            "hex" : "#f583b6"
+            "hex" : "#f583b6",
+            "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "013",
@@ -4746,6 +4866,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#b88e2a",
             "family" : "Yellow",
+            "addedWhite" : true,
         },
         {
             "number" : "041",
@@ -4753,7 +4874,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PO20, PW6",
             "opacity" : "Opaque",
-            "hex" : "#ffc397"
+            "hex" : "#ffc397",
+            "family" : "Orange",
+            "addedWhite" : true,
         },
         {
             "number" : "044",
@@ -4761,7 +4884,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PY3, PBr6",
             "opacity" : "Opaque",
-            "hex" : "#67790a"
+            "hex" : "#67790a",
+            "family" : "Green",
         },
         {
             "number" : "045",
@@ -4868,7 +4992,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PY3, PG7, PB15:3",
             "opacity" : "Opaque",
-            "hex" : "#035354"
+            "hex" : "#035354",
+            "family" : "Blue",
         },
         {
             "number" : "071",
@@ -4876,7 +5001,9 @@ const brands = {
             "rating" : "***",
             "pigments" : "PG7, PW6",
             "opacity" : "Opaque",
-            "hex" : "#3f9c9d"
+            "hex" : "#3f9c9d",
+            "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "073",
@@ -4895,6 +5022,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#3ea7a5",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "078",
@@ -4904,6 +5032,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#2a3f36",
             "family" : "Green",
+            "addedWhite" : true,
         },
         {
             "number" : "080",
@@ -4913,6 +5042,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#85b9eb",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "083",
@@ -4922,6 +5052,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#195f97",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "085",
@@ -4949,6 +5080,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#055ab6",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "091",
@@ -5012,6 +5144,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#4766da",
             "family" : "Blue",
+            "addedWhite" : true,
         },
         {
             "number" : "109",
@@ -5030,6 +5163,7 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#8e76cc",
             "family" : "Violet",
+            "addedWhite" : true,
         },
         {
             "number" : "113",
@@ -5082,7 +5216,8 @@ const brands = {
             "rating" : "**",
             "pigments" : "AR52",
             "opacity" : "Opaque",
-            "hex" : "#fe3c69"
+            "hex" : "#fe3c69",
+            "family" : "Red",
         },
         {
             "number" : "127",
@@ -5090,7 +5225,9 @@ const brands = {
             "rating" : "**",
             "pigments" : "AR52, PW6",
             "opacity" : "Opaque",
-            "hex" : "#ff86bf"
+            "hex" : "#ff86bf",
+            "family" : "Red",
+            "addedWhite" : true,
         },
         {
             "number" : "132",
@@ -5107,7 +5244,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PY119",
             "opacity" : "Opaque",
-            "hex" : "#804316"
+            "hex" : "#804316",
+            "family" : "Brown",
         },
         {
             "number" : "136",
@@ -5115,7 +5253,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PR101, PY42",
             "opacity" : "Opaque",
-            "hex" : "#67541a"
+            "hex" : "#67541a",
+            "family" : "Brown",
         },
         {
             "number" : "139",
@@ -5123,7 +5262,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PR101, PO34",
             "opacity" : "Opaque",
-            "hex" : "#5f2716"
+            "hex" : "#5f2716",
+            "family" : "Brown",
         },
         {
             "number" : "141",
@@ -5131,7 +5271,8 @@ const brands = {
             "rating" : "****",
             "pigments" : "PR101",
             "opacity" : "Opaque",
-            "hex" : "#381f13"
+            "hex" : "#381f13",
+            "family" : "Brown",
         },
         {
             "number" : "144",
@@ -5175,7 +5316,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#efefef"
+            "hex" : "#efefef",
+            "family" : "White",
         },
         {
             "number" : "164",
@@ -5183,7 +5325,8 @@ const brands = {
             "rating" : "***",
             "pigments" : "PW6",
             "opacity" : "Opaque",
-            "hex" : "#efefef"
+            "hex" : "#efefef",
+            "family" : "White",
         },
         {
             "number" : "171",
@@ -5229,6 +5372,448 @@ const brands = {
             "opacity" : "Opaque",
             "hex" : "#864028",
             "family" : "Metallic",
+        },
+    ],
+
+    "Shinhan Pass" : [
+        {
+            "number" : "802",
+            "name" : "Alizarin Crimson",
+            "rating" : "**",
+            "pigments" : "PR83, PR122",
+            "opacity" : "Transparent",
+            "hex" : "#aa2840",
+            "family" : "Red",
+        },
+        {
+            "number" : "804",
+            "name" : "Carmine",
+            "rating" : "***",
+            "pigments" : "PR17",
+            "opacity" : "Semi-Transparent",
+            "hex" : "9e9e9e",
+            "family" : "#c5212a",
+        },
+        {
+            "number" : "806",
+            "name" : "Permanent Red",
+            "rating" : "***",
+            "pigments" : "PR12",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#d92129",
+            "family" : "Red",
+        },
+        {
+            "number" : "808",
+            "name" : "Bright Red",
+            "rating" : "**",
+            "pigments" : "BR1, PR48.1",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#e42f28",
+            "family" : "Red",
+        },
+        {
+            "number" : "810",
+            "name" : "Vermilion Hue",
+            "rating" : "*",
+            "pigments" : "P)16, PR48:3",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#f45126",
+            "family" : "Red",
+        },
+        {
+            "number" : "811",
+            "name" : "Orange",
+            "rating" : "**",
+            "pigments" : "PO13, PY1",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#f86f39",
+            "family" : "Orange",
+        },
+        {
+            "number" : "813",
+            "name" : "Yellow Orange",
+            "rating" : "*",
+            "pigments" : "PY83, BR1",
+            "opacity" : "Semi-Opaque",
+            "hex" : "9e9e9e",
+            "family" : "#ffa813",
+        },
+        {
+            "number" : "815",
+            "name" : "Permanent Yellow Deep",
+            "rating" : "**",
+            "pigments" : "PY1, PY2",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#ffb901",
+            "family" : "Yellow",
+        },
+        {
+            "number" : "816",
+            "name" : "Permanent Yellow",
+            "rating" : "**",
+            "pigments" : "PY1",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#ffd401",
+            "family" : "Yellow",
+        },
+        {
+            "number" : "817",
+            "name" : "Lemon Yellow",
+            "rating" : "*",
+            "pigments" : "PY147",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#ffef20",
+            "family" : "Yellow",
+        },
+        {
+            "number" : "819",
+            "name" : "Jaune Brilliant",
+            "rating" : "**",
+            "pigments" : "PO20, PW6",
+            "opacity" : "Opaque",
+            "hex" : "#ffc6a8",
+            "family" : "Orange",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "821",
+            "name" : "Linden Green",
+            "rating" : "**",
+            "pigments" : "PG7, PW6",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#c8cd18",
+            "family" : "Green",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "822",
+            "name" : "Light Green",
+            "rating" : "*",
+            "pigments" : "PG7, PY3",
+            "opacity" : "Transparent",
+            "hex" : "#38923a",
+            "family" : "Green",
+        },
+        {
+            "number" : "821",
+            "name" : "Greenish Yellow",
+            "rating" : "**",
+            "pigments" : "PG8, PY17",
+            "opacity" : "Transparent",
+            "hex" : "#787935",
+            "family" : "Green",
+        },
+        {
+            "number" : "825",
+            "name" : "Olive Green",
+            "rating" : "**",
+            "pigments" : "PG8, PY1, PO16",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#535f31",
+            "family" : "Green",
+        },
+        {
+            "number" : "827",
+            "name" : "Cobalt Green",
+            "rating" : "****",
+            "pigments" : "PG7, PB36",
+            "opacity" : "paque",
+            "hex" : "#01a281",
+            "family" : "Green",
+        },
+        {
+            "number" : "829",
+            "name" : "Sap Green",
+            "rating" : "**",
+            "pigments" : "PG8, PY17",
+            "opacity" : "Transparent",
+            "hex" : "#017840",
+            "family" : "Green",
+        },
+        {
+            "number" : "830",
+            "name" : "Hookers Green",
+            "rating" : "**",
+            "pigments" : "PG7, PG8",
+            "opacity" : "Transparent",
+            "hex" : "#006c4c",
+            "family" : "Green",
+        },
+        {
+            "number" : "832",
+            "name" : "Viridian Hue",
+            "rating" : "***",
+            "pigments" : "PG7",
+            "opacity" : "Transparent",
+            "hex" : "#006d5a",
+            "family" : "Green",
+        },
+        {
+            "number" : "834",
+            "name" : "Shadow Green",
+            "rating" : "***",
+            "pigments" : "PBk31",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#3e4e4b",
+            "family" : "Green",
+        },
+        {
+            "number" : "841",
+            "name" : "Compose Blue",
+            "rating" : "**",
+            "pigments" : "PB15:3, PG7",
+            "opacity" : "Opaque",
+            "hex" : "#1ab2bd",
+            "family" : "Blue",
+        },
+        {
+            "number" : "842",
+            "name" : "Blue Grey",
+            "rating" : "**",
+            "pigments" : "PB15:3, PB29",
+            "opacity" : "Opaque",
+            "hex" : "#81cadb",
+            "family" : "Blue",
+        },
+        {
+            "number" : "844",
+            "name" : "Peacock Blue",
+            "rating" : "**",
+            "pigments" : "PB15:3, PG7",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#01628d",
+            "family" : "Blue",
+        },
+        {
+            "number" : "845",
+            "name" : "Cerulean Blue Hue",
+            "rating" : "**",
+            "pigments" : "PB15:3",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#007fb2",
+            "family" : "Blue",
+        },
+        {
+            "number" : "847",
+            "name" : "Cobalt Blue Hue",
+            "rating" : "****",
+            "pigments" : "PB15:3, PB29",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#0160a2",
+            "family" : "Blue",
+        },
+        {
+            "number" : "849",
+            "name" : "Ultramarine Blue",
+            "rating" : "***",
+            "pigments" : "PB29",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#014189",
+            "family" : "Blue",
+        },
+        {
+            "number" : "851",
+            "name" : "Prussian Blue",
+            "rating" : "**",
+            "pigments" : "PG27",
+            "opacity" : "Transparent",
+            "hex" : "#2d294c",
+            "family" : "Blue",
+        },
+        {
+            "number" : "853",
+            "name" : "Indigo",
+            "rating" : "**",
+            "pigments" : "PB66",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#393b50",
+            "family" : "Blue",
+        },
+        {
+            "number" : "856",
+            "name" : "Permanent Violet",
+            "rating" : "**",
+            "pigments" : "PV3",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#55345f",
+            "family" : "Violet",
+        },
+        {
+            "number" : "858",
+            "name" : "Heliotrope",
+            "rating" : "*",
+            "pigments" : "PW6, BV11:1",
+            "opacity" : "Opaque",
+            "hex" : "#8a7caf",
+            "family" : "Violet",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "859",
+            "name" : "Blue Celeste",
+            "rating" : "**",
+            "pigments" : "PB29, PV3, Pw6",
+            "opacity" : "Opaque",
+            "hex" : "#7797c8",
+            "family" : "Blue",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "861",
+            "name" : "Red Violet",
+            "rating" : "*",
+            "pigments" : "PR81, BV11",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#98277f",
+            "family" : "Violet",
+        },
+        {
+            "number" : "863",
+            "name" : "Lilac",
+            "rating" : "**",
+            "pigments" : "PR122, PW6",
+            "opacity" : "Opaque",
+            "hex" : "#b98cb7",
+            "family" : "Violet",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "865",
+            "name" : "Opera",
+            "rating" : "*",
+            "pigments" : "BV11:1, BR1",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#ed1a5f",
+            "family" : "Red",
+        },
+        {
+            "number" : "867",
+            "name" : "Brilliant Pink",
+            "rating" : "**",
+            "pigments" : "PR209, PW6",
+            "opacity" : "Opaque",
+            "hex" : "#f57d96",
+            "family" : "Red",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "868",
+            "name" : "Shell Pink",
+            "rating" : "**",
+            "pigments" : "PR48:3, PO16, Pw6",
+            "opacity" : "Opaque",
+            "hex" : "#fda9a9",
+            "family" : "Red",
+            "addedWhite" : true,
+        },
+        {
+            "number" : "870",
+            "name" : "Pink",
+            "rating" : "*",
+            "pigments" : "BR1, BV11",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#f474a7",
+            "family" : "Red",
+        },
+        {
+            "number" : "878",
+            "name" : "Yellow Ochre",
+            "rating" : "***",
+            "pigments" : "PY42",
+            "opacity" : "Semi-Opaque",
+            "hex" : "#db9243",
+            "family" : "Yellow",
+        },
+        {
+            "number" : "880",
+            "name" : "Raw Umber",
+            "rating" : "*",
+            "pigments" : "PR101",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#935639",
+            "family" : "Brown",
+        },
+        {
+            "number" : "882",
+            "name" : "Light Red",
+            "rating" : "***",
+            "pigments" : "PR101, PR60:1",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#a0462e",
+            "family" : "Brown",
+        },
+        {
+            "number" : "885",
+            "name" : "Burnt Sienna",
+            "rating" : "***",
+            "pigments" : "PR101",
+            "opacity" : "Transparent",
+            "hex" : "#994133",
+            "family" : "Brown",
+        },
+        {
+            "number" : "887",
+            "name" : "Brown Red",
+            "rating" : "***",
+            "pigments" : "PBr25",
+            "opacity" : "Transparent",
+            "hex" : "#81382f",
+            "family" : "Brown",
+        },
+        {
+            "number" : "890",
+            "name" : "Burnt Umber",
+            "rating" : "***",
+            "pigments" : "PR146, PY98",
+            "opacity" : "Transparent",
+            "hex" : "#824830",
+            "family" : "Brown",
+        },
+        {
+            "number" : "892",
+            "name" : "Vandyke Brown",
+            "rating" : "***",
+            "pigments" : "PR146, PBk11",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#6f402e",
+            "family" : "Brown",
+        },
+        {
+            "number" : "893",
+            "name" : "Sepia",
+            "rating" : "***",
+            "pigments" : "PR101, PBk11",
+            "opacity" : "Semi-Transparent",
+            "hex" : "#55352a",
+            "family" : "Brown",
+        },
+        {
+            "number" : "895",
+            "name" : "Black",
+            "rating" : "****",
+            "pigments" : "PBk1",
+            "opacity" : "Opaque",
+            "hex" : "#29242a",
+            "family" : "Black",
+        },
+        {
+            "number" : "897",
+            "name" : "Grey",
+            "rating" : "**",
+            "pigments" : "PBk11, PW6",
+            "opacity" : "Opaque",
+            "hex" : "#b2b1af",
+            "family" : "Grey",
+        },
+        {
+            "number" : "899",
+            "name" : "White",
+            "rating" : "**",
+            "pigments" : "PW6",
+            "opacity" : "Opaque",
+            "hex" : "#ffffff",
+            "family" : "White",
         },
     ]
 }

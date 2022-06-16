@@ -7,6 +7,7 @@ const app = express()
 const cors = require("cors")
 
 const PORT = 8000
+const fs = require('fs');
 
 app.use(cors())
 app.use(express.static(__dirname))
@@ -4443,17 +4444,18 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "White",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6",
-            "opacity" : "None Listed",
-            "hex" : "#ffffff"
+            "opacity" : "Opaque",
+            "hex" : "#ffffff",
+            "family" : "White",
         },
         {
             "number" : "None Listed",
             "name" : "Baby Yellow",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PY43, PY37",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#fff3b5",
             "family" : "Yellow",
             "addedWhite" : true,
@@ -4461,9 +4463,9 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Orange",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PO73, PY1",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#f5833c",
             "family" : "Orange",
             "addedWhite" : true,
@@ -4471,44 +4473,45 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Rosy",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PY6, PO73",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#f07a70",
             "family" : "Red",
         },
         {
             "number" : "None Listed",
             "name" : "Red",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PO16, PR48:3",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#e5502d",
             "family" : "Red",
         },
         {
             "number" : "None Listed",
             "name" : "Brown",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PY43, PR101",
-            "opacity" : "None Listed",
-            "hex" : "#66553f"
+            "opacity" : "Opaque",
+            "hex" : "#66553f",
+            "family" : "Brown",
         },
         {
             "number" : "None Listed",
             "name" : "Chocolate",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PR101, PBk6",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#413d3a",
             "family" : "Brown",
         },
         {
             "number" : "None Listed",
             "name" : "Lambs Ear",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "pw6, PG17, PY1",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#9bc190",
             "family" : "Green",
             "addedWhite" : true,
@@ -4516,9 +4519,9 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Green",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PG17, PG36",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#516b4a",
             "family" : "Green",
             "addedWhite" : true,
@@ -4526,9 +4529,9 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Blue",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PB15, PG7",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#7a97a9",
             "family" : "Blue",
             "addedWhite" : true,
@@ -4536,9 +4539,9 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Nighty",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PB27, PB29",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#44628c",
             "family" : "Blue",
             "addedWhite" : true,
@@ -4546,9 +4549,9 @@ const brands = {
         {
             "number" : "None Listed",
             "name" : "Lilac",
-            "rating" : "None Listed",
+            "rating" : "**",
             "pigments" : "PW6, PV23, PB15",
-            "opacity" : "None Listed",
+            "opacity" : "Opaque",
             "hex" : "#938ac3",
             "family" : "Violet",
             "addedWhite" : true,
@@ -5817,6 +5820,22 @@ const brands = {
         },
     ]
 }
+
+var jsonObj = JSON.parse(brands);
+console.log(jsonObj);
+ 
+// stringify JSON Object
+var jsonContent = JSON.stringify(jsonObj);
+console.log(jsonContent);
+ 
+fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
+    if (err) {
+        console.log("An error occured while writing JSON Object to File.");
+        return console.log(err);
+    }
+ 
+    console.log("JSON file has been saved.");
+});
 
 // "/" is the main path
 app.get("/", (req, res)=> {

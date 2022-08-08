@@ -1,6 +1,6 @@
-// document.querySelector()
-
 const url = `https://oh-my-gouache.herokuapp.com/api/`
+
+//const url = `http://localhost:8000/api`
 
 const selectBrands = document.querySelector(".brands")
 const selectColors = document.querySelector(".colors")

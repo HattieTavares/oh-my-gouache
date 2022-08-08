@@ -5821,29 +5821,26 @@ const brands = {
     ]
 }
 
-var jsonObj = JSON.parse(brands);
-console.log(jsonObj);
+var jsonObj = brands;
  
 // stringify JSON Object
-var jsonContent = JSON.stringify(jsonObj);
-console.log(jsonContent);
+// var jsonContent = JSON.stringify(jsonObj);
  
-fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
-    if (err) {
-        console.log("An error occured while writing JSON Object to File.");
-        return console.log(err);
-    }
- 
-    console.log("JSON file has been saved.");
-});
+// fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
+//     if (err) {
+//         console.log("An error occured while writing JSON Object to File.");
+//         return console.log(err);
+//     }
+// });
 
 // "/" is the main path
-app.get("/", (req, res)=> {
-    res.sendFile(__dirname + "/index.html")
-})
 
 app.get("/api", (req, res)=> {
     res.json(brands)
+})
+
+app.get("/", (req, res)=> {
+    res.sendFile(__dirname + "/index.html")
 })
 
 //need to tell the server to listen and can assign the port to a variable if you want

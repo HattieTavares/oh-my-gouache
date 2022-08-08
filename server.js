@@ -7,7 +7,6 @@ const app = express()
 const cors = require("cors")
 
 const PORT = 8000
-const fs = require('fs');
 
 app.use(cors())
 app.use(express.static(__dirname))
@@ -5820,18 +5819,6 @@ const brands = {
         },
     ]
 }
-
-var jsonObj = brands;
- 
-// stringify JSON Object
-// var jsonContent = JSON.stringify(jsonObj);
- 
-// fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
-//     if (err) {
-//         console.log("An error occured while writing JSON Object to File.");
-//         return console.log(err);
-//     }
-// });
 
 // "/" is the main path
 
